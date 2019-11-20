@@ -1,3 +1,13 @@
+@font-face {
+  font-family: Segoe WP;
+  src: url('assets/Segoe\ WP.ttf');
+}
+
+@font-face {
+  font-family: Segoe WP Light;
+  src: url('assets/Segoe\ WP\ Light.ttf');
+}
+
 .wrapper_mobile {
   display: none;
 }
@@ -37,7 +47,6 @@
   font-family: "Lucida Sans";
   font-style: italic;
   text-align: center;
-  /* box-shadow: 1px 1.732px 0px rgba(0,0,0,0.42); */
 }
 
 .navbar {
@@ -59,7 +68,7 @@
   font-size: 17px;
   letter-spacing: 0px;
   color: #9b7d08;
-  font-family: "Segoe WP";
+  font-family: Segoe WP;
   font-weight: 700;
   text-align: center;
   background-image: linear-gradient(0deg, #f5c505 0%, #f5c505 100%);
@@ -314,7 +323,7 @@ a:visited {
   letter-spacing: 0px;
   line-height: 38px;
   color: #ffffff;
-  font-family: "Segoe WP Light";
+  font-family: Segoe WP Light;
   font-weight: 100;
   text-align: left;
 }
@@ -352,7 +361,7 @@ a:visited {
   letter-spacing: 0px;
   line-height: 38px;
   color: #ffffff;
-  font-family: "Segoe WP Light";
+  font-family: Segoe WP Light;
   font-weight: 300;
 }
 
@@ -499,7 +508,6 @@ a:visited {
   font-family: "Lucida Sans";
   font-style: italic;
   text-align: center;
-  /* box-shadow: 1px 1.732px 0px rgba(0,0,0,0.42); */
 }
 
 @media screen and (max-width: 640px) {
@@ -543,7 +551,6 @@ a:visited {
     font-family: "Lucida Sans";
     font-style: italic;
     text-align: center;
-    /* box-shadow: 1px 1.732px 0px rgba(0,0,0,0.42); */
   }
   
   .navbar {
@@ -565,7 +572,7 @@ a:visited {
     font-size: 19px;
     letter-spacing: 0px;
     color: #9b7d08;
-    font-family: "Segoe WP";
+    font-family: Segoe WP;
     font-weight: 700;
     text-align: center;
     background-color: #f5c506;
@@ -754,7 +761,7 @@ a:visited {
     letter-spacing: 0px;
     line-height: 33px;
     color: #ffffff;
-    font-family: "Segoe WP";
+    font-family: Segoe WP;
     font-weight: 300;
     text-align: left;
   }
@@ -919,6 +926,5 @@ a:visited {
     font-family: "Lucida Sans";
     font-style: italic;
     text-align: center;
-    /* box-shadow: 1px 1.732px 0px rgba(0,0,0,0.42); */
   }
 }
