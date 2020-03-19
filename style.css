@@ -1,3 +1,13 @@
+@font-face {
+  font-family: Segoe WP;
+  src: url('assets/Segoe\ WP.ttf');
+}
+
+@font-face {
+  font-family: Segoe WP Light;
+  src: url('assets/Segoe\ WP\ Light.ttf');
+}
+
 .wrapper_mobile {
   display: none;
 }
@@ -33,11 +43,10 @@
   flex: 1 1 auto;
   font-size: 41px;
   letter-spacing: 0px;
-  color: #ffffff;
+  color: rgb(255, 255, 255);
   font-family: "Lucida Sans";
   font-style: italic;
   text-align: center;
-  /* box-shadow: 1px 1.732px 0px rgba(0,0,0,0.42); */
 }
 
 .navbar {
@@ -58,11 +67,11 @@
   padding: 0px;
   font-size: 17px;
   letter-spacing: 0px;
-  color: #9b7d08;
-  font-family: "Segoe WP";
+  color: rgb(155,125,8);
+  font-family: Segoe WP;
   font-weight: 700;
   text-align: center;
-  background-image: linear-gradient(0deg, #f5c505 0%, #f5c505 100%);
+  background-image: linear-gradient(0deg,rgb(245,197,5) 0%,rgb(245,197,5) 100%);
   box-shadow: -4px -5px 0px rgba(245,197,5,0.27), -8px -8px 0px rgba(245,197,5,0.27) ;
 }
 
@@ -74,7 +83,7 @@
 .services {
   width: 132px;
   height: 41px; 
-  border-color: #dcb105;
+  border-color: rgb(220,177,5);
   border-left: 1px solid;
   border-right: 1px solid;
 }
@@ -95,13 +104,13 @@ a {
 }
 
 a:visited {
-  color: #9b7d08;
+  color: rgb(155,125,8);
  }
 
 .video_area {
   width: 549px;
   height: 327px;
-  background: grey;
+  background: rgb(128, 128, 128);
   margin-left: 150px;
   margin-top: 46px;
 }
@@ -134,7 +143,7 @@ a:visited {
   border-top-right-radius: 0px;
   border-bottom-right-radius: 0px;
   position: relative;
-  background-color: #f5c506;
+  background-color: rgb(245, 197, 6);
   margin-top: -11px;
   margin-left: 80px; 
 }
@@ -151,7 +160,7 @@ a:visited {
   position: relative;
   font-size: 63px;
   letter-spacing: 1px;
-  color: #f5c506;
+  color: rgb(245, 197, 6);
   font-family: "Asap";
   font-weight: 400;
   text-align: center;
@@ -162,7 +171,7 @@ a:visited {
 }
 
 .video_text span {
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 .back_button {
@@ -203,14 +212,14 @@ a:visited {
   width: 1300px;
   height: 212px;
   background-image: url(assets/Layer7.png);
-  box-shadow: 0px -5px 5px rgba(0,0,0,0.25), 0px 4px 3px rgba(0,0,0,0.25);
+  box-shadow: 0px -5px 5px rgba(0, 0, 0, 0.25), 0px 4px 3px rgba(0,0,0,0.25);
 }
 
 .better_design {
   width: 340px;
   height: 212px;
-  border-left: 1px solid #d1d1d1;
-  border-right: 1px solid #d1d1d1;
+  border-left: 1px solid rgb(209, 209, 209);
+  border-right: 1px solid rgb(209, 209, 209);
   margin-left: 139px;
 }
 
@@ -223,7 +232,7 @@ a:visited {
 .better_design a span {
   font-size: 27px;
   letter-spacing: 0px;
-  color: #000000;
+  color: rgb(0, 0, 0);
   font-family: "Segoe UI";
   font-weight: 300;
   text-align: center;
@@ -246,7 +255,7 @@ a:visited {
 .customise a span {
   font-size: 27px;
   letter-spacing: 0px;
-  color: #000000;
+  color: rgb(0, 0, 0);
   font-family: "Segoe UI";
   font-weight: 300;
   text-align: center;
@@ -256,8 +265,8 @@ a:visited {
 .its_free {
   width: 339px;
   height: 212px;
-  border-left: 1px solid #d1d1d1;
-  border-right: 1px solid #d1d1d1;
+  border-left: 1px solid rgb(209, 209, 209);
+  border-right: 1px solid rgb(209, 209, 209);
   margin-left: 819px;
   margin-top: -212px;
 }
@@ -271,7 +280,7 @@ a:visited {
 .its_free a span {
   font-size: 27px;
   letter-spacing: 0px;
-  color: #000000;
+  color: rgb(0, 0, 0);
   font-family: "Segoe UI";
   font-weight: 300;
   text-align: center;
@@ -293,14 +302,14 @@ a:visited {
   height: 130px;
   font-size: 37px;
   letter-spacing: 1px;
-  color: #ffffff;
+  color: rgb(255, 255, 255);
   font-family: "PT Sans";
   font-weight: 400;
   margin-left: 142px;
 }
 
 .text_block {
-  background-color: #ec9e03;
+  background-color: rgb(236, 158, 3);
   width: 341px;
   height: 196px;
   margin-left: 139px;
@@ -313,8 +322,8 @@ a:visited {
   font-size: 28px;
   letter-spacing: 0px;
   line-height: 38px;
-  color: #ffffff;
-  font-family: "Segoe WP Light";
+  color: rgb(255, 255, 255);
+  font-family: Segoe WP Light;
   font-weight: 100;
   text-align: left;
 }
@@ -338,7 +347,7 @@ a:visited {
 }
 
 .twitter_area {
-  background-color: #ec9e03;
+  background-color: rgb(236, 158, 3);
   width: 329px;
   height: 196px;
   margin-left: 829px;
@@ -351,8 +360,8 @@ a:visited {
   font-size: 25px;
   letter-spacing: 0px;
   line-height: 38px;
-  color: #ffffff;
-  font-family: "Segoe WP Light";
+  color: rgb(255, 255, 255);
+  font-family: Segoe WP Light;
   font-weight: 300;
 }
 
@@ -367,7 +376,7 @@ a:visited {
 }
 
 .date_box {
-  background-color: #ddb101;
+  background-color: rgb(221, 177, 1);
   width: 113px;
   height: auto;
   margin-left: 139px;
@@ -380,7 +389,7 @@ a:visited {
   font-size: 51px;
   letter-spacing: 1px;
   line-height: 38px;
-  color: #ffffff;
+  color: rgb(255, 255, 255);
   font-family: "Segoe UI";
   font-weight: bold;
 }
@@ -390,7 +399,7 @@ a:visited {
   font-size: 21px;
   letter-spacing: 0px;
   line-height: 38px;
-  color: #b26529;
+  color: rgb(178, 101, 41);
   font-family: "Segoe UI";
 }
 
@@ -413,7 +422,7 @@ a:visited {
 .section2_area .name_s2 {
   font-size: 42px;
   letter-spacing: 0px;
-  color: #f5c506;
+  color: rgb(245, 197, 6);
   font-family: "PT Sans";
   font-weight: 400;
   padding-left: 350px;
@@ -440,13 +449,13 @@ a:visited {
   width: 116px;
   height: 116px;
   border-radius: 58px;
-  background-color: #f5c506;
+  background-color: rgb(245, 197, 6);
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 19px;
   letter-spacing: 0px;
-  color: #ffffff;
+  color: rgb(255, 255, 255);
   font-family: "PT Sans Narrow";
   font-weight: 700;
   margin-left: 137px;
@@ -464,7 +473,7 @@ a:visited {
   height: 45px;
   font-size: 22px;
   letter-spacing: 0px;
-  color: #a9a9a7;
+  color: rgb(169, 169, 167);
   font-family: "Open Sans";
   font-weight: 400;
   line-height: 27px;
@@ -495,11 +504,10 @@ a:visited {
   margin-top: -44px;
   font-size: 29px;
   letter-spacing: 0px;
-  color: #ffffff;
+  color: rgb(255, 255, 255);
   font-family: "Lucida Sans";
   font-style: italic;
   text-align: center;
-  /* box-shadow: 1px 1.732px 0px rgba(0,0,0,0.42); */
 }
 
 @media screen and (max-width: 640px) {
@@ -519,7 +527,7 @@ a:visited {
   
   .logo {
     display: flex;
-    background-image: linear-gradient(0deg, #464646 0%, #5d5d5d 100%);
+    background-image: linear-gradient(0deg, rgb(70, 70, 70) 0%, rgb(93, 93, 93) 100%);
     margin-left: 0px;
     margin-top: -1px;
     width: 186px;
@@ -539,11 +547,10 @@ a:visited {
     flex: 1 1 auto;
     font-size: 19px;
     letter-spacing: 0px;
-    color: #ffffff;
+    color: rgb(255, 255, 255);
     font-family: "Lucida Sans";
     font-style: italic;
     text-align: center;
-    /* box-shadow: 1px 1.732px 0px rgba(0,0,0,0.42); */
   }
   
   .navbar {
@@ -564,11 +571,11 @@ a:visited {
     padding: 0px;
     font-size: 19px;
     letter-spacing: 0px;
-    color: #9b7d08;
-    font-family: "Segoe WP";
+    color: rgb(155, 125, 8);
+    font-family: Segoe WP;
     font-weight: 700;
     text-align: center;
-    background-color: #f5c506;
+    background-color: rgb(245, 197, 6);
     box-shadow: none;
   }
   
@@ -582,7 +589,7 @@ a:visited {
     flex: 0 0 auto;
     width: 132px;
     height: 64px; 
-    border-color: #dcb105;
+    border-color: rgb(220, 177, 5);
     border-left: 1px solid;
     border-right: 1px solid;
   }
@@ -598,7 +605,7 @@ a:visited {
   }
   
   a:visited {
-    color: #9b7d08;
+    color: rgb(155, 125, 8);
   }
 
   .video_area {
@@ -637,7 +644,7 @@ a:visited {
     border-top-right-radius: 0px;
     border-bottom-right-radius: 0px;
     position: relative;
-    background-color: #f5c506;
+    background-color: rgb(245, 197, 6);
     margin-top: -11px;
     margin-left: 134px; 
   }
@@ -674,7 +681,7 @@ a:visited {
   .better_design a span {
     font-size: 23px;
     letter-spacing: 0.5px;
-    color: #000000;
+    color: rgb(0, 0, 0);
     font-family: "Segoe UI";
     font-weight: 300;
     text-align: center;
@@ -699,7 +706,7 @@ a:visited {
   .customise a span {
     font-size: 23px;
     letter-spacing: 0.5px;
-    color: #000000;
+    color: rgb(0, 0, 0);
     font-family: "Segoe UI";
     font-weight: 300;
     text-align: center;
@@ -725,7 +732,7 @@ a:visited {
   .its_free a span {
     font-size: 23px;
     letter-spacing: 0.5px;
-    color: #000000;
+    color: rgb(0, 0, 0);
     font-family: "Segoe UI";
     font-weight: 300;
     text-align: center;
@@ -739,7 +746,7 @@ a:visited {
   }
   
   .text_block {
-    background-color: #ec9e03;
+    background-color: rgb(236, 158, 3);
     width: 299px;
     height: 195px;
     margin-left: 9px;
@@ -753,8 +760,8 @@ a:visited {
     font-size: 29px;
     letter-spacing: 0px;
     line-height: 33px;
-    color: #ffffff;
-    font-family: "Segoe WP";
+    color: rgb(255, 255, 255);
+    font-family: Segoe WP;
     font-weight: 300;
     text-align: left;
   }
@@ -781,7 +788,7 @@ a:visited {
   }
   
   .twitter_area {
-    background-color: #f5c507;
+    background-color: rgb(245, 197, 7);
     width: 317px;
     height: 196px;
     margin-left: 0px;
@@ -796,7 +803,7 @@ a:visited {
   }
 
   .message_area {
-    background-color: #f5c507;
+    background-color: rgb(245, 197, 7);
     width: 323px;
     height: 196px;
     margin-left: 317px;
@@ -819,7 +826,7 @@ a:visited {
     line-height: 15px;
     font-size: 13px;
     letter-spacing: 0px;
-    color: #8f8e8e;
+    color: rgb(143, 142, 142);
     font-family: "Arial";
   }
 
@@ -829,7 +836,7 @@ a:visited {
     height: 25px;
     border-top-left-radius: 12px;
     border-bottom-left-radius: 12px;
-    border: 1 solid #d0a806;
+    border: 1 solid rgb(208, 168, 6);
   }
 
   .message_area .twit_submit {
@@ -837,12 +844,12 @@ a:visited {
     height: 31px;
     border-top-right-radius: 12px;
     border-bottom-right-radius: 12px;
-    background-image: linear-gradient(0deg, #cf8e0c 0%, #eaa927 100%);    
+    background-image: linear-gradient(0deg, rgb(207, 142, 12) 0%, rgb(234, 169, 39) 100%);    
     font-size: 15px;
     letter-spacing: 0px;
-    color: #ffffff;
+    color: rgb(255, 255, 255);
     font-family: "Arial";
-    border: 1 solid #d0a806;
+    border: 1 solid rgb(208, 168, 6);
   }
 
   .section2_area { 
@@ -855,7 +862,7 @@ a:visited {
   .section2_area .name_s2 {
     font-size: 39px;
     letter-spacing: 0.5px;
-    color: #f5c506;
+    color: rgb(245, 197, 6);
     font-family: "Open Sans";
     font-weight: 400;
     padding-left: 17px;
@@ -882,13 +889,13 @@ a:visited {
     width: 116px;
     height: 116px;
     border-radius: 58px;
-    background-color: #f5c506;
+    background-color: rgb(245, 197, 6);
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 19px;
     letter-spacing: 0px;
-    color: #ffffff;
+    color: rgb(255, 255, 255);
     font-family: "PT Sans Narrow";
     font-weight: 700;
     margin-left: 27px;
@@ -899,7 +906,7 @@ a:visited {
     width: 640px;
     height: 76px;
     background-image: url(assets/Layer31.png);     
-    box-shadow: 0px -2px 5px rgba(0,0,0,1);
+    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1);
   
   }
   
@@ -915,10 +922,9 @@ a:visited {
     margin-top: -26px;
     font-size: 17px;
     letter-spacing: 0px;
-    color: #ffffff;
+    color: rgb(255, 255, 255);
     font-family: "Lucida Sans";
     font-style: italic;
     text-align: center;
-    /* box-shadow: 1px 1.732px 0px rgba(0,0,0,0.42); */
   }
 }
